@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://github.com/innabox/managed-cluster-config
+    repoURL: https://github.com/osac-project/managed-cluster-config
     path: vault/operator/overlays/hypershift1
     targetRevision: HEAD
   syncPolicy:
@@ -26,7 +26,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://github.com/innabox/managed-cluster-config
+    repoURL: https://github.com/osac-project/managed-cluster-config
     path: vault/instance/overlays/hypershift1
     targetRevision: HEAD
   syncPolicy:
